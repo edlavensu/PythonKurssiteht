@@ -7,7 +7,7 @@ while True:
         break
 
     luvut.append(float(annettu))
-luvut.sort(reserve=True)
+luvut.sort(reverse=True)
 
 print("viisi suurinta lukua: ")
 for luku in luvut [:5]:
